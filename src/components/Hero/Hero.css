@@ -47,9 +47,9 @@
 }
 
 .resume-button {
-  border: 1px solid black;
+  border: 1px solid rgb(248, 28, 28);
   background-color: white;
-  color: black;
+  color: rgb(248, 28, 28);
   border-radius: 25px;
   padding: 10px;
   margin-top: 2rem;
