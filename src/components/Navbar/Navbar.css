@@ -5,8 +5,9 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  background-color: #0a2040;
-  color: white;
+  /* background-color: #0a2040; */
+  background-color: white;
+  color: black;
 }
 
 .nav-logo {
@@ -32,11 +33,11 @@ nav {
   padding: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 1.5px;
-  border-bottom: 2px solid #0a2040;
+  border-bottom: 2px solid white;
 }
 
 .navigation li:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
 .social-links {
@@ -47,7 +48,7 @@ nav {
 }
 
 .social-links a {
-  color: white;
+  color: black;
   font-size: 1.5rem;
 }
 
