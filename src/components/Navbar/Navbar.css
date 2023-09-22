@@ -37,7 +37,8 @@ nav {
 }
 
 .navigation li:hover {
-  border-bottom: 2px solid black;
+  color: rgb(248, 28, 28);
+  border-bottom: 2px solid rgb(248, 28, 28);
 }
 
 .social-links {
