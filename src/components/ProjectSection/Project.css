@@ -1,4 +1,12 @@
-.project-container {
+.project-section {
   background-color: rgb(248, 28, 28);
   height: 100vh;
+}
+
+.project-section h1 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+  text-align: center;
 }
