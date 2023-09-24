@@ -1,4 +1,47 @@
-.experience-container {
+.experience-section {
   background-color: white;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-section h1 {
+  color: black;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.experience-container {
+  background-color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+.education-container {
+  height: 70vh;
+  width: 40vh;
+  background-color: white;
+  border: 2px black solid;
+}
+
+.work-container {
+  height: 70vh;
+  width: 40vh;
+  background-color: white;
+  border: 2px black solid;
+}
+
+.extracirricular-container {
+  height: 70vh;
+  width: 40vh;
+  background-color: white;
+  border: 2px black solid;
 }
