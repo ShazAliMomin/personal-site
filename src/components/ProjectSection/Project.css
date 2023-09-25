@@ -10,3 +10,33 @@
   padding-top: 2rem;
   text-align: center;
 }
+
+.project-container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100vh;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 50% 50%;
+  gap: 1rem;
+}
+
+.starpath-card {
+  grid-column: 1 1;
+  grid-row-end: 2;
+}
+
+.game-img {
+  width: 10rem;
+}

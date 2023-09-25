@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import ProfileImg from "../../assets/Profile_Image/profilepic.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
@@ -12,9 +13,12 @@ function Hero() {
           <img src={ProfileImg} alt="Shaz Ali Momin"></img>
         </div>
         <div className="intro-container">
-          <h1>Hi, I'm Shaz!</h1>
+          <p className="intro-text">Hi, I'm</p>
+          <h1>Shaz Ali Momin</h1>
           <p>Software Developer</p>
-          <button className="resume-button">Download Resume</button>
+          <button className="resume-button">
+            <FontAwesomeIcon icon={faDownload} /> Resume
+          </button>
         </div>
       </div>
       <div className="next-section-arrow">
