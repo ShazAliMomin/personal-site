@@ -5,13 +5,14 @@ import Hero from "./components/Hero/Hero";
 // import Experience from "./components/Experience/Experience";
 // import Project from "./components/ProjectSection/Project";
 // import Contact from "./components/Contact/Contact";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
+      <Footer />
     </div>
   );
 }

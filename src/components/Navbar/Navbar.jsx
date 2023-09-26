@@ -1,12 +1,14 @@
 import React from "react";
 import "./Navbar.css";
+import Logo from "../../assets/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
     <nav>
-      <h1 className="nav-logo">Shaz Ali Momin</h1>
+      {/* <h1 className="nav-logo">Shaz Ali Momin</h1> */}
+      <img className="nav-logo" src={Logo} alt="My Logo"></img>
       <ul className="navigation">
         <li>About</li>
         <li>Experience</li>

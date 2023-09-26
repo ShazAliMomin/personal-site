@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import ProfileImg from "../../assets/Profile_Image/profilepic.png";
+import ProfileImg from "../../assets/Profile_Image/Shaz.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";

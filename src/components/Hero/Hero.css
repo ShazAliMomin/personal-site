@@ -1,12 +1,12 @@
 .hero-container {
   /* background-color: #0a2040; */
-  background-color: white;
-  height: 90vh;
+  background-color: whitesmoke;
+  height: 84vh;
 }
 
 .hero-info {
   /* background-color: #0a2040; */
-  height: 85vh;
+  height: 79vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +77,7 @@
 
 .next-section-arrow button {
   border: none;
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   font-size: 1.5rem;
 }
