@@ -3,7 +3,7 @@ import "./Hero.css";
 import ProfileImg from "../../assets/Profile_Image/Shaz.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+// import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -21,11 +21,11 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="next-section-arrow">
+      {/* <div className="next-section-arrow">
         <button>
           <FontAwesomeIcon icon={faAngleDown} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
