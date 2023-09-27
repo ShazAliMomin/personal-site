@@ -12,8 +12,9 @@ function About() {
         </div>
       </div>
       <div className="education-skills-card">
-        <h2 className="education-header">EDUCATION</h2>
+        {/* <h2 className="education-header">EDUCATION</h2> */}
         <div className="education">
+          <h2 className="education-header">EDUCATION</h2>
           <div>
             <p>
               University of Houston{" "}

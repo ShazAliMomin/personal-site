@@ -1,0 +1,48 @@
+.details-container {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 0;
+}
+
+.details {
+  padding: 3rem;
+}
+
+.details div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details h2 {
+  color: rgb(248, 28, 28);
+}
+
+.details p {
+  /* color: rgb(248, 28, 28); */
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tech {
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.tech li {
+  border: 2px solid rgb(248, 28, 28);
+  border-radius: 25px;
+  color: rgb(248, 28, 28);
+  padding: 0.5rem 1rem;
+}
