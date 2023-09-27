@@ -10,15 +10,14 @@
 
 .experience-section h1 {
   margin-bottom: 0;
-  padding-left: 5.2rem;
-  padding-bottom: 1.5rem;
+  padding: 1rem 0 2.5rem 5.2rem;
   letter-spacing: 50px;
   text-align: center;
 }
 
 .experience-container {
   width: 60%;
-  height: 80vh;
+  height: 75vh;
   display: flex;
 }
 

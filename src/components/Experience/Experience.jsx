@@ -18,8 +18,6 @@ function Experience() {
     } else if (name === "Abercrombie") {
       setCurrentExp(experienceList.Abercrombie);
     }
-
-    // event.preventDefault();
   }
 
   return (

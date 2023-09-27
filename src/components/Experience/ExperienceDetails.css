@@ -2,11 +2,6 @@ span {
   color: rgb(248, 28, 28);
 }
 
-p {
-  /* color: rgb(248, 28, 28); */
-  font-weight: bold;
-}
-
 .details-container {
   height: 100%;
   width: 100%;
@@ -15,12 +10,28 @@ p {
 
 .details {
   padding: 3rem;
+
+  animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .details div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.details p {
+  /* color: rgb(248, 28, 28); */
+  font-weight: bold;
 }
 
 .description {
