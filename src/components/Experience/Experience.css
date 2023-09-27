@@ -4,8 +4,16 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.experience-section h1 {
+  margin-bottom: 0;
+  padding-left: 5.2rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 50px;
+  text-align: center;
 }
 
 .experience-container {

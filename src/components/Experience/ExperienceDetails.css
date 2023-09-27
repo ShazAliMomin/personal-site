@@ -1,3 +1,12 @@
+span {
+  color: rgb(248, 28, 28);
+}
+
+p {
+  /* color: rgb(248, 28, 28); */
+  font-weight: bold;
+}
+
 .details-container {
   height: 100%;
   width: 100%;
@@ -12,15 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.details h2 {
-  color: rgb(248, 28, 28);
-}
-
-.details p {
-  /* color: rgb(248, 28, 28); */
-  font-weight: bold;
 }
 
 .description {

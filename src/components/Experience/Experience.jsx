@@ -19,11 +19,12 @@ function Experience() {
       setCurrentExp(experienceList.Abercrombie);
     }
 
-    event.preventDefault();
+    // event.preventDefault();
   }
 
   return (
     <div className="experience-section">
+      <h1>EXPERIENCE</h1>
       <div className="experience-container">
         <div className="tab">
           <button onClick={handleClick} name="TensorIOT">
@@ -33,7 +34,7 @@ function Experience() {
             CougarCS
           </button>
           <button onClick={handleClick} name="REC">
-            HQ REC
+            Headquarter REC
           </button>
           <button onClick={handleClick} name="Abercrombie">
             Abercrombie & Fitch

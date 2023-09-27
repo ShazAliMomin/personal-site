@@ -10,7 +10,9 @@ function ExperienceDetails(props) {
           <p>{props.experience.date}</p>
         </div>
         <div>
-          <p>{props.experience.name}</p>
+          <p>
+            <span>{props.experience.name}</span>
+          </p>
           <p>{props.experience.location}</p>
         </div>
         <ul className="description">
