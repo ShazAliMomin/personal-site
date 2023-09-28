@@ -9,9 +9,7 @@ span {
 }
 
 .details {
-  padding: 3rem;
-
-  animation: fadeIn ease 1s;
+  padding: 2rem 3rem;
 }
 
 @keyframes fadeIn {
@@ -43,7 +41,7 @@ span {
 .tech {
   margin: 0;
   padding: 0;
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

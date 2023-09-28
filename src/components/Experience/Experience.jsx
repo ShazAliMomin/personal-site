@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import ExperienceDetails from "./ExperienceDetails";
 import experienceList from "./ExperienceList";
 import "./Experience.css";
+import "./ExperienceDetails.css";
 
 function Experience() {
   const [currentExp, setCurrentExp] = useState(experienceList.TensorIOT);
 
   function handleClick(event) {
     const name = event.target.name;
+
+    const detail = document.querySelector(".details");
+    detail.style.animation = "fadeIn ease 1s";
 
     if (name === "TensorIOT") {
       setCurrentExp(experienceList.TensorIOT);
@@ -18,6 +22,10 @@ function Experience() {
     } else if (name === "Abercrombie") {
       setCurrentExp(experienceList.Abercrombie);
     }
+
+    setTimeout(() => {
+      detail.style.animation = "";
+    }, 500);
   }
 
   return (
