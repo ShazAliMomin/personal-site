@@ -1,18 +1,29 @@
 import React from "react";
 import "./About.css";
-import UHLogo from "../../assets/UH_Red.png";
+// import UHLogo from "../../assets/UH_Red.png";
 
 function About() {
   return (
     <div className="about-container">
-      <div className="about-card">
+      <h1>ABOUT ME</h1>
+      <div className="grid-container">
+        <div className="about-card">
+          <p>I am Shaz</p>
+        </div>
+        <div className="education-card">
+          <h2>Education</h2>
+        </div>
+        <div className="skills-card">
+          <h2>Skills</h2>
+        </div>
+      </div>
+      {/* <div className="about-card">
         <h2 className="about-header">ABOUT ME</h2>
         <div className="about-me">
           <p>I am shaz</p>
         </div>
       </div>
       <div className="education-skills-card">
-        {/* <h2 className="education-header">EDUCATION</h2> */}
         <div className="education">
           <h2 className="education-header">EDUCATION</h2>
           <div>
@@ -48,7 +59,7 @@ function About() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
