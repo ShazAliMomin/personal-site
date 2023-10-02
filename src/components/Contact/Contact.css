@@ -7,14 +7,41 @@
 
 .contact-container h1 {
   font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .socials {
   width: 35%;
+  height: 60vh;
+}
+
+.socials p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.socials ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.socials a {
+  color: black;
+  font-size: 2rem;
+}
+
+.socials a:hover {
+  color: rgb(248, 28, 28);
+  font-size: 2rem;
 }
 
 .contact-form {
   width: 30%;
+  height: 60vh;
   /* box-shadow: 0 0 5px 0; */
   padding: 2rem 2rem;
 }
@@ -23,20 +50,31 @@
   color: black;
 }
 
+.input-container label {
+  font-weight: 500;
+}
+
 .contactInput {
   border: 1px solid white;
   border-radius: 25px;
   padding: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 0 5px 0;
+  width: 95.5%;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 .contact-form textarea {
   border: 1px solid white;
   border-radius: 25px;
   padding: 1rem;
+  margin-top: 0.5rem;
   max-width: 92%;
   min-width: 92%;
   max-height: 20vh;
   min-height: 20vh;
+  box-shadow: 0 0 5px 0;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 .submit {
@@ -53,4 +91,10 @@
   border: 1px solid rgb(248, 28, 28);
   color: rgb(248, 28, 28);
   background-color: whitesmoke;
+}
+
+.submit-message {
+  padding-top: 0.5rem;
+  text-align: center;
+  color: green;
 }
