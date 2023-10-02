@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-// import UHLogo from "../../assets/UH_Red.png";
+import UHLogo from "../../assets/UH_Red.png";
 
 function About() {
   return (
@@ -8,43 +8,33 @@ function About() {
       <h1>ABOUT ME</h1>
       <div className="grid-container">
         <div className="about-card">
-          <p>I am Shaz</p>
+          <p>I am the Shaz</p>
         </div>
         <div className="education-card">
-          <h2>Education</h2>
+          <div className="education">
+            <div className="education-content">
+              <img className="uh-logo" src={UHLogo} alt="UH Logo"></img>
+              <div className="major">
+                <h2>Education</h2>
+                <p>
+                  University of Houston{" "}
+                  <span>
+                    | <i>2019 - 2023</i>
+                  </span>
+                </p>
+                <ul>
+                  <li>B.S. in Computer Science</li>
+                  <li>Minor in MIS</li>
+                  <li>Minor in Mathematics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="skills-card">
           <h2>Skills</h2>
-        </div>
-      </div>
-      {/* <div className="about-card">
-        <h2 className="about-header">ABOUT ME</h2>
-        <div className="about-me">
-          <p>I am shaz</p>
-        </div>
-      </div>
-      <div className="education-skills-card">
-        <div className="education">
-          <h2 className="education-header">EDUCATION</h2>
           <div>
-            <p>
-              University of Houston{" "}
-              <span>
-                | <i>2019 - 2023</i>
-              </span>
-            </p>
-            <ul>
-              <li>B.S. in Computer Science</li>
-              <li>Minor in MIS</li>
-              <li>Minor in Mathematics</li>
-            </ul>
-          </div>
-          <img className="uh-logo" src={UHLogo} alt="UH Logo"></img>
-        </div>
-        <h2 className="skills-header">SKILLS</h2>
-        <div className="skills">
-          <div className="languages">
-            <ul>
+            <ul className="languages">
               <li>Python</li>
               <li>C++</li>
               <li>HTML</li>
@@ -59,7 +49,7 @@ function About() {
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
