@@ -9,6 +9,18 @@ function About() {
       <div className="grid-container">
         <div className="about-card">
           <p>I am the Shaz</p>
+          <p>
+            Since graduating from college back in May, I have been looking to
+            start my professional career. I began learning front-end development
+            and have loved every second leading me to want to pursue full stack
+            development.
+          </p>
+          <p>
+            When I am not coding, I usually spend time with friends and family.
+            If I am not feeling sociable, you can find me fighting aliens with
+            space magic in the game Destiny 2 or on my almost weekly movie
+            theater visit.
+          </p>
         </div>
         <div className="education-card">
           <div className="education">
