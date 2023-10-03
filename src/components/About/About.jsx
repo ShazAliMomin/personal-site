@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import UHLogo from "../../assets/UH_Red.png";
+import UHLogo from "../../images/UH_Red.png";
 
 function About() {
   return (

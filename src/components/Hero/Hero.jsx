@@ -1,9 +1,9 @@
 import React from "react";
 import "./Hero.css";
-import ProfileImg from "../../assets/Profile_Image/Shaz.png";
+import ProfileImg from "../../images/Profile_Image/Shaz.png";
+import Resume from "../../images/Shaz_Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-// import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -15,17 +15,12 @@ function Hero() {
         <div className="intro-container">
           <p className="intro-text">Hi, I'm</p>
           <h1>Shaz Ali Momin</h1>
-          <p>Software Developer</p>
-          <button className="resume-button">
+          <p>Front-End Developer</p>
+          <a className="resume-button" href={Resume} download="Resume">
             <FontAwesomeIcon icon={faDownload} /> Resume
-          </button>
+          </a>
         </div>
       </div>
-      {/* <div className="next-section-arrow">
-        <button>
-          <FontAwesomeIcon icon={faAngleDown} />
-        </button>
-      </div> */}
     </div>
   );
 }
