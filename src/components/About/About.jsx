@@ -4,7 +4,7 @@ import UHLogo from "../../images/UH_Red.png";
 
 function About() {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <h1>ABOUT ME</h1>
       <div className="grid-container">
         <div className="about-card">

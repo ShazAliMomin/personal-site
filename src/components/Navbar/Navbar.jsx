@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-scroll";
 import Logo from "../../images/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -10,10 +11,26 @@ function Navbar() {
       {/* <h1 className="nav-logo">Shaz Ali Momin</h1> */}
       <img className="nav-logo" src={Logo} alt="My Logo"></img>
       <ul className="navigation">
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact Me</li>
+        <li>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="experience" spy={true} smooth={true} duration={650}>
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" spy={true} smooth={true} duration={850}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" spy={true} smooth={true} duration={1000}>
+            Contact Me
+          </Link>
+        </li>
       </ul>
       <ul className="social-links">
         <li>

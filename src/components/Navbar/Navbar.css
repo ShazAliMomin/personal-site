@@ -34,14 +34,14 @@ nav {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
   letter-spacing: 1.5px;
-  border-bottom: 2px solid whitesmoke;
+  /* border-bottom: 2px solid whitesmoke; */
 }
 
 .navigation li:hover {
   color: rgb(248, 28, 28);
-  border-bottom: 2px solid rgb(248, 28, 28);
+  /* border-bottom: 2px solid rgb(248, 28, 28); */
 }
 
 .social-links {
