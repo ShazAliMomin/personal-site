@@ -1,4 +1,20 @@
 .footer-container {
-  background-color: black;
+  background-color: whitesmoke;
   height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container p {
+  font-weight: lighter;
+}
+
+.lang-logo {
+  font-size: 30px;
+  /* color: #61dbfb; */
+  color: black;
+  display: flex;
+  gap: 1rem;
 }
