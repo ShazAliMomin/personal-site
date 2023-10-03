@@ -1,20 +1,21 @@
 .footer-container {
-  background-color: whitesmoke;
+  background-color: black;
   height: 15vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .footer-container p {
   font-weight: lighter;
+  color: whitesmoke;
 }
 
 .lang-logo {
   font-size: 30px;
   /* color: #61dbfb; */
-  color: black;
+  color: whitesmoke;
   display: flex;
   gap: 1rem;
 }
