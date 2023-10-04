@@ -117,3 +117,11 @@
     width: 71%;
   }
 }
+
+@media (max-width: 475px) {
+  .experience-section h1 {
+    letter-spacing: 15px;
+    font-size: 30px;
+    padding-left: 0.5rem;
+  }
+}

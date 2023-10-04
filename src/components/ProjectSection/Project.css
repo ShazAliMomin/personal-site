@@ -49,3 +49,11 @@
     width: 100%;
   }
 }
+
+@media (max-width: 475px) {
+  .project-section h1 {
+    letter-spacing: 20px;
+    font-size: 30px;
+    padding-left: 1rem;
+  }
+}
