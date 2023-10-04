@@ -15,7 +15,7 @@ function Hero() {
         <div className="intro-container">
           <p className="intro-text">Hi, I'm</p>
           <h1>Shaz Ali Momin</h1>
-          <p>Front-End Developer</p>
+          <p>Programmer</p>
           <a className="resume-button" href={Resume} download="Resume">
             <FontAwesomeIcon icon={faDownload} /> Resume
           </a>
