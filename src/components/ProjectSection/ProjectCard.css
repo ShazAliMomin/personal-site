@@ -17,3 +17,9 @@
   margin: 2rem 0;
   background-color: black;
 }
+
+@media (max-width: 600px) {
+  .card-container {
+    width: 75%;
+  }
+}
