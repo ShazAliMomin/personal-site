@@ -99,6 +99,11 @@
   .experience-section h1 {
     letter-spacing: 35px;
   }
+
+  .tab button {
+    text-align: center;
+    color: black;
+  }
 }
 
 @media (max-width: 600px) {
@@ -115,6 +120,12 @@
     height: auto;
     padding-bottom: 2rem;
     width: 71%;
+  }
+
+  .tab {
+    overflow: auto;
+    flex-wrap: nowrap;
+    justify-content: start;
   }
 }
 

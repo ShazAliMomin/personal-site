@@ -71,6 +71,9 @@ span {
 }
 
 @media (max-width: 600px) {
+  .details-container {
+    height: auto;
+  }
   .details div {
     padding: 0;
   }

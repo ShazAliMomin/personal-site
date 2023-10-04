@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 5px 0;
+  background-color: white;
 }
 
 .card {
@@ -21,5 +22,6 @@
 @media (max-width: 600px) {
   .card-container {
     width: 75%;
+    height: auto;
   }
 }
