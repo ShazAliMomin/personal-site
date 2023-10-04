@@ -43,8 +43,8 @@ function Contact() {
       <div className="socials">
         <h1>Get in Touch</h1>
         <p>
-          Feel free to contact me if you have any questions or for potential job
-          opportunities!
+          Feel free to contact me if you have any questions or for any potential
+          job opportunities!
         </p>
         <ul>
           <li>

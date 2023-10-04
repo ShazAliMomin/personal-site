@@ -14,7 +14,7 @@
 }
 
 .grid-container {
-  width: 65%;
+  width: 70%;
   height: 75vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,20 +26,35 @@
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   box-shadow: 0 0 5px 0;
+  background-color: white;
+}
+
+.about-card h2 {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .about-card p {
   padding: 1rem 2rem 0 2rem;
+  font-size: 18px;
+  margin-top: 0;
 }
 
 .education-card {
   grid-column: 3 / 5;
   grid-row: 1 / 2;
   box-shadow: 0 0 5px 0;
+  background-color: white;
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .education-content {
-  padding-top: 2.2rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,6 +73,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .languages {
@@ -76,4 +92,38 @@
   border-radius: 25px;
   color: rgb(248, 28, 28);
   padding: 0.5rem 1rem;
+}
+
+@media (max-width: 1325px) {
+  .about-container {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .education-content {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .education-content {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    margin-bottom: 10vh;
+  }
+
+  .about-container h1 {
+    letter-spacing: 35px;
+  }
 }

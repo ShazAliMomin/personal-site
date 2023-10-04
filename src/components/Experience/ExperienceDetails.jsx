@@ -13,7 +13,7 @@ function ExperienceDetails(props) {
           <p>
             <span>{props.experience.name}</span>
           </p>
-          <p>{props.experience.location}</p>
+          {/* <p>{props.experience.location}</p> */}
         </div>
         <ul className="description">
           {props.experience.description.map((desc) => (

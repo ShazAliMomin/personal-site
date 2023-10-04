@@ -8,7 +8,12 @@ function About() {
       <h1>ABOUT ME</h1>
       <div className="grid-container">
         <div className="about-card">
-          <p>I am the Shaz</p>
+          <h2>Summary</h2>
+          <p>
+            Starting from an interest in making video games, my journey to learn
+            programming evolved into wanting to create something that can
+            benefit someome.
+          </p>
           <p>
             Since graduating from college back in May, I have been looking to
             start my professional career. I began learning front-end development
@@ -18,16 +23,17 @@ function About() {
           <p>
             When I am not coding, I usually spend time with friends and family.
             If I am not feeling sociable, you can find me fighting aliens with
-            space magic in the game Destiny 2 or on my almost weekly movie
+            space magic in the game Destiny 2 or during my almost weekly movie
             theater visit.
           </p>
         </div>
         <div className="education-card">
           <div className="education">
+            <h2>Education</h2>
             <div className="education-content">
               <img className="uh-logo" src={UHLogo} alt="UH Logo"></img>
               <div className="major">
-                <h2>Education</h2>
+                {/* <h2>Education</h2> */}
                 <p>
                   University of Houston{" "}
                   <span>

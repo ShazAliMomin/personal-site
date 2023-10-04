@@ -60,7 +60,7 @@
   padding: 0.5rem;
   margin-top: 0.5rem;
   box-shadow: 0 0 5px 0;
-  width: 95.5%;
+  width: 100%;
   font-family: "Hind Madurai", sans-serif;
 }
 
@@ -69,8 +69,8 @@
   border-radius: 25px;
   padding: 1rem;
   margin-top: 0.5rem;
-  max-width: 92%;
-  min-width: 92%;
+  max-width: 96%;
+  min-width: 96%;
   max-height: 20vh;
   min-height: 20vh;
   box-shadow: 0 0 5px 0;
@@ -84,7 +84,7 @@
   font-weight: bold;
   padding: 0.5rem;
   background-color: rgb(248, 28, 28);
-  width: 100%;
+  width: 105%;
 }
 
 .submit:hover {
@@ -97,4 +97,22 @@
   padding-top: 0.5rem;
   text-align: center;
   color: green;
+}
+
+@media (max-width: 800px) {
+  .contact-container {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 10vh;
+  }
+
+  .socials {
+    width: 75%;
+    height: auto;
+    justify-content: flex-end;
+  }
+
+  .contact-form {
+    width: 75%;
+  }
 }

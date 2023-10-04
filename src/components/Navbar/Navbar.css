@@ -65,3 +65,29 @@ nav {
   padding-bottom: 0.5rem;
   cursor: pointer;
 }
+
+.drop-down {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .drop-down {
+    display: flex;
+    font-size: 1.5rem;
+    color: black;
+  }
+}
