@@ -1,5 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function ProjectCard(props) {
   return (
@@ -13,6 +15,11 @@ function ProjectCard(props) {
             <li>{tech}</li>
           ))}
         </ul>
+        <div className="link-container">
+          <a className="repo" href={props.project.github}>
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
       </div>
     </div>
   );
