@@ -14,11 +14,12 @@
 }
 
 .project-container {
-  height: 70vh;
-  width: 60vw;
+  height: auto;
+  width: 70vw;
   margin: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 

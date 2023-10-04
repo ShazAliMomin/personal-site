@@ -10,6 +10,7 @@ function Project() {
       <div className="project-container">
         <ProjectCard project={projectList.Starpath} />
         <ProjectCard project={projectList.InfoDrill} />
+        <ProjectCard project={projectList.Portfolio} />
       </div>
     </div>
   );
