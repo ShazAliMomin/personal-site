@@ -118,6 +118,14 @@
 }
 
 @media (max-width: 500px) {
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .contact-form {
     width: 65%;
     padding: 0;
