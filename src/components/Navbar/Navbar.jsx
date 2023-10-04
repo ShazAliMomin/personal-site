@@ -3,10 +3,11 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 import Logo from "../../images/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
+  // const [showLinks, setShowLinks] = useState(true);
+
   return (
     <nav>
       {/* <h1 className="nav-logo">Shaz Ali Momin</h1> */}
@@ -45,9 +46,6 @@ function Navbar() {
           </a>
         </li>
       </ul>
-      <div className="drop-down">
-        <FontAwesomeIcon icon={faBars} />
-      </div>
     </nav>
   );
 }

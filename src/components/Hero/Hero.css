@@ -27,6 +27,7 @@
   height: 20rem;
   border-radius: 50%;
   padding: 8px;
+  order: -5;
 }
 
 .intro-container {
@@ -74,6 +75,7 @@
 @media (max-width: 860px) {
   .hero-container {
     margin-bottom: 10vh;
+    height: auto;
   }
 
   .hero-info {

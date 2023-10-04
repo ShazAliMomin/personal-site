@@ -8,6 +8,8 @@ nav {
   /* background-color: #0a2040; */
   background-color: whitesmoke;
   color: black;
+  height: auto;
+  flex-wrap: wrap;
 }
 
 .nav-logo {
@@ -25,6 +27,9 @@ nav {
   padding: 0;
   padding-right: 1rem;
   display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap;
+  order: 5; */
   gap: 2rem;
 }
 
@@ -66,6 +71,14 @@ nav {
   cursor: pointer;
 }
 
+.navigation #hidden {
+  display: flex;
+}
+
+.social-links #hidden {
+  display: flex;
+}
+
 .drop-down {
   display: none;
 }
@@ -81,13 +94,7 @@ nav {
     display: none;
   }
 
-  .social-links {
+  /* .social-links {
     display: none;
-  }
-
-  .drop-down {
-    display: flex;
-    font-size: 1.5rem;
-    color: black;
-  }
+  } */
 }
